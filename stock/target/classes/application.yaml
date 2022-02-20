@@ -1,13 +1,14 @@
 server:
   port: 8011
 
-  spring:
-    application:
-      name: stock-service
-    cloud:
-      nacos:
+spring:
+  application:
+    name: stock-service
+  cloud:
+    nacos:
+#      server-addr: 47.106.74.127:8848
+      discovery:
+        username: nacos
+        password: nacos
+        namespace: public
         server-addr: 47.106.74.127:8848
-        discovery:
-          username: nacos
-          password: nacos
-          namespace: public
