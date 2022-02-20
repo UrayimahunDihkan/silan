@@ -12,9 +12,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="order" target="1.5" />
-      <module name="springCloudAlibaba" target="1.5" />
-      <module name="stock" target="1.5" />
+      <module name="order" target="1.8" />
+      <module name="springCloudAlibaba" target="1.8" />
+      <module name="stock" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
