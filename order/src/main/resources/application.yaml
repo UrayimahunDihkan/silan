@@ -12,6 +12,6 @@ spring:
         namespace: public
         server-addr: 47.106.74.127:8848
 
-#stock-service:
-#  ribbon:
-#    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
+stock-service:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule

@@ -12,9 +12,9 @@ import org.springframework.cloud.netflix.ribbon.RibbonClients;
  * @date: 2022/2/19 4:14 下午
  **/
 @SpringBootApplication
-@RibbonClients(value = {
-        @RibbonClient(name="stock-service",configuration = RibbonConfig.class)
-})
+//@RibbonClients(value = {
+//        @RibbonClient(name="stock-service",configuration = RibbonConfig.class)
+//})
 public class OrderApplication {
 
     public static void main(String[] args) {
