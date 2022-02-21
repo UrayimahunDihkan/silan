@@ -3,8 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>Order</module>
+        <module>order</module>
         <module>stock</module>
+        <module>stock2</module>
     </modules>
 
     <groupId>com.miTea10.main</groupId>

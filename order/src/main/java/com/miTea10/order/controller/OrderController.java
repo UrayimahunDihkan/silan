@@ -14,11 +14,15 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping("/order")
 public class OrderController {
 
+    @Autowired
+    RestTemplate restTemplate;
+
     @RequestMapping("/add")
     public String add() {
 
+        String msg = restTemplate.getForObject("http://stock-service/stock/reduct",String.class);
         System.out.println("下单成功");
-        return "下单成功 ";
+        return "下单成功 " + msg;
     }
 }
 

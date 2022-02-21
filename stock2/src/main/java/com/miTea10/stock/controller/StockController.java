@@ -15,7 +15,7 @@ public class StockController {
     @RequestMapping("/reduct")
     String reduct() {
         System.out.println("库存扣件1");
-        return "8011--库存扣件1";
+        return "8012--库存扣件1";
     }
 }
 
